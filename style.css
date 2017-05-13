@@ -1,8 +1,54 @@
 body {
-  background-color: #06618f;
+  background:#d5d8d9;
   font-family: 'Roboto', Helvetica, sans-serif;
-  margin: 5%;
+  text-align: center;
+  margin: 0;
+}
+.wrapper {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+header {
+  background: #fcf5e7;
+  padding-bottom: 20px;
+}
+main {
+  background: #06618f;
+  flex: 1;
+  font-size: 300px;
+}
+.content {
+  margin: 120px;
+}
+#job {
+  font-size: 14px;
+}
+footer {
+  padding-top: 40px;
+  padding-bottom: 20px;
+  background:#fcf5e7;
 }
 .title {
   color: #231f20;
+}
+.small-heading {
+  letter-spacing: 0.3em;
+  font-size: 12px;
+  font-weight: bolder;
+}
+.contact {
+  letter-spacing: 0.1em;
+  font-size: 20px;
+}
+#name {
+  letter-spacing: 0.5em;
+  margin-bottom: 10px;
+}
+#page-selection {
+  font-size: 16px;
+}
+#megaphone {
+  width: 5%;
+  height: 5%;
 }
