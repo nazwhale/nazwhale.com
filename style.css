@@ -16,10 +16,10 @@ header {
 main {
   background: #508dc4;
   flex: 1;
-  font-size: 300px;
 }
 .content {
   margin: 120px;
+  font-size: 300px;
 }
 #job {
   font-size: 14px;
@@ -59,4 +59,12 @@ footer {
   padding-left: 3%;
   padding-top: 1.5%;
   padding-bottom: 10%;
+}
+.icon {
+  height: 60px;
+}
+#github-icon {
+  height: 33px;
+  padding-bottom: 14px;
+  padding-right: 14px;
 }
