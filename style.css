@@ -3,6 +3,7 @@ body {
   font-family: 'Roboto', Helvetica, sans-serif;
   text-align: center;
   margin: 0;
+  color: #231f20;
 }
 .wrapper {
   height: 100vh;
@@ -28,9 +29,6 @@ footer {
   padding-top: 40px;
   padding-bottom: 20px;
   background:#fcf5e7;
-}
-.title {
-  color: #231f20;
 }
 .small-heading {
   letter-spacing: 0.3em;
