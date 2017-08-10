@@ -1,68 +1,60 @@
 body {
-  background:#d5d8d9;
-  font-family: 'Roboto', Helvetica, sans-serif;
+  background:#f9faea;
+  font-family: "adam-cg-pro",'Roboto', Helvetica, sans-serif;
+  color: #55647d;
   text-align: center;
-  margin: 0;
-  color: #231f20;
 }
-.wrapper {
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
+
+@font-face {
+  font-family: "adam-cg-pro";
+  src: url('fonts/adam-cg-pro.regular.otf') format("opentype");
 }
-header {
-  background: #fcf5e7;
-  padding-bottom: 10px;
+@font-face {
+  font-family: "coves-bold";
+  src: url('fonts/CovesBold.otf') format("opentype");
 }
-main {
-  background: #508dc4;
-  flex: 1;
+
+
+/* main content */
+
+#content {
+  width: 100%;
+  position: absolute;
+  top: 25%;
+  bottom: 75%;
 }
-.content {
-  margin: 120px;
-  font-size: 300px;
-}
-#job {
-  font-size: 14px;
-}
-footer {
-  padding-top: 40px;
-  padding-bottom: 20px;
-  background:#fcf5e7;
-}
-.small-heading {
-  letter-spacing: 0.3em;
-  font-size: 12px;
-  font-weight: bolder;
-}
-.contact {
-  letter-spacing: 0.1em;
+
+.title {
   font-size: 20px;
+  letter-spacing: 0.3em;
 }
-#name {
-  letter-spacing: 0.5em;
-  margin-bottom: 10px;
-}
-#page-selection {
+
+.small-heading {
+  font-family: "coves-bold";
+  letter-spacing: 0.3em;
   font-size: 16px;
 }
-#megaphone {
-  width: 5%;
-  height: 5%;
+
+.normal {
+  font-family: "coves-bold";
+  letter-spacing: 0.1em;
 }
+
 #whale-icon {
-  height: 75px;
-  position: absolute;
-  left: 0;
-  padding-left: 3%;
-  padding-top: 1.5%;
-  padding-bottom: 10%;
+  max-width: 70px;
 }
-.icon {
-  height: 60px;
+
+
+/* footer */
+
+#footer {
+  position: fixed;
+  bottom: 7%;
+  width: 100%;
 }
-#github-icon {
-  height: 33px;
-  padding-bottom: 14px;
-  padding-right: 14px;
+
+.footer-text {
+  font-family: "coves-bold";
+  letter-spacing: 0.3em;
+  font-size: 14px
 }
