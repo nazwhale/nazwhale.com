@@ -14,14 +14,12 @@ body {
   src: url('fonts/CovesBold.otf') format("opentype");
 }
 
-
 /* main content */
 
-#content {
-  width: 100%;
-  position: absolute;
-  top: 25%;
-  bottom: 75%;
+body {
+  padding: 5%;
+  padding-left: 10%;
+  padding-right: 10%;
 }
 
 .title {
@@ -42,15 +40,13 @@ body {
 
 #whale-icon {
   max-width: 70px;
+  margin-bottom: 20px;
 }
-
 
 /* footer */
 
-#footer {
-  position: fixed;
-  bottom: 7%;
-  width: 100%;
+.line-break {
+  margin: 50px;
 }
 
 .footer-text {
