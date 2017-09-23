@@ -3,6 +3,9 @@ body {
   font-family: "adam-cg-pro",'Roboto', Helvetica, sans-serif;
   color: #55647d;
   text-align: center;
+  padding: 3%;
+  padding-left: 13%;
+  padding-right: 13%;
 }
 
 @font-face {
@@ -15,12 +18,6 @@ body {
 }
 
 /* main content */
-
-body {
-  padding: 5%;
-  padding-left: 13%;
-  padding-right: 13%;
-}
 
 .title {
   font-size: 20px;
@@ -43,10 +40,15 @@ body {
   margin-bottom: 20px;
 }
 
+.facts li {
+  margin-left: 20%;
+  margin-right: 20%;
+  padding-bottom: 10px;
+}
 /* footer */
 
 .line-break {
-  margin: 50px;
+  margin: 40px;
 }
 
 .footer-text {
